@@ -14,7 +14,9 @@ int main() {
    
      cout <<  r+1 <<setw(15)
           <<  names[r]
+       
           <<setiosflags(ios::fixed)<<setprecision(2)
+       
           <<setw(10) << marks[r]<< endl;
  }
 }
